@@ -25,6 +25,6 @@ def last_evaluated_value
    puts "expert"
 end
 
-def pizza_party("pepperoni", default = cheese)
-  puts pepperoni, #{ingredient}
+def pizza_party("pepperoni", default = "cheese")
+  puts pepperoni, #{default}
 end
